@@ -1,0 +1,129 @@
+.woocommerce-product-gallery figure{
+	max-width: inherit;
+}
+.woocommerce-page .content h1{
+	font-size: 2.6em;
+}
+.woocommerce-page .content h2{
+	font-size: 1.825em;
+}
+.woocommerce-page .cross-sells h2, .woocommerce-page .cart_totals h2{
+	font-size: 1.4em;
+}
+.woocommerce-review-link{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/
+}
+.woocommerce-loop-product__title{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/	
+}
+.product_meta, .product_meta a{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/
+}
+.woocommerce-loop-category__title{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/	
+}
+.woocommerce div.product div.images img{
+	margin: 0px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+	font-size: 90%;
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar{
+	width:inherit;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text{
+	margin: 0 0 0 80px;
+}
+@media (min-width: 1281px) {
+	.woocommerce-page #coupon_code {
+		width:inherit;
+	}
+ }
+.woocommerce-page  #coupon_code{
+	 border-radius: 3px;
+	 padding: 3px 6px;
+ }
+
+.woocommerce-page .variations label{
+	margin-top:5px;
+}
+.shop_category_description{
+	text-align:center; 
+}
+.woocommerce ul.products li.product a img{
+	border-radius: 6px;
+	 @include shadow-big-image();
+}
+.woocommerce-page .section-page-info{
+	display: none;
+}
+.woocommerce nav.woocommerce-pagination ul li{
+	border-right: none;
+}
+.woocommerce nav.woocommerce-pagination ul li .page-numbers{
+	border: none;
+	padding:9px 11px;
+	font-size: 12px;
+	color: $grey;
+}
+.woocommerce nav.woocommerce-pagination ul{
+	border: none;
+}
+.woocommerce nav.woocommerce-pagination ul li{
+	border-radius:35px;
+	margin-right:12px;
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li span.current{
+	background-color: $cyan-500;
+    border-color: $cyan-500;
+    box-shadow: 0 4px 5px 0 rgba(0, 188, 212, 0.14), 0 1px 10px 0 rgba(0, 188, 212, 0.12), 0 2px 4px -1px rgba(0, 188, 212, 0.2);
+    color:$white;
+}
+.woocommerce nav.woocommerce-pagination ul li a:hover{
+	z-index: 2;
+    color: $grey;
+    background-color: $grey-200;
+    border-color: #dddddd;
+}
+.woocommerce span.onsale{
+	min-width: 3.65em;
+}
+.woocommerce-Reviews #review_form #comment, .woocommerce-Reviews #review_form #author, .woocommerce-Reviews #review_form #email{
+	margin-bottom: 7px;
+	border: 0;
+	background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+	background-size: 0 2px, 100% 1px;
+	background-repeat: no-repeat;
+	background-position: center bottom, center calc(100% - 1px);
+	background-color: rgba(0, 0, 0, 0);
+	transition: background 0s ease-out;
+	float: none;
+	box-shadow: none;
+	border-radius: 0;
+	font-weight: 400;
+	height: 36px;
+	padding: 7px 0;
+	font-size: 14px;
+	line-height: 1.428571429;
+	display: block;
+	width: 100%;
+}
+.woocommerce #review_form #respond .form-submit input{
+	border-radius: 30px;
+	background-color: #999999;
+	color: #FFFFFF;
+	border: none;
+	position: relative;
+	padding: 12px 30px;
+	margin: 10px 1px;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+.woocommerce #review_form #respond .form-submit input:hover{
+	box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+}
+.woocommerce-Reviews #review_form .comment-notes{
+	font-size: 14px;
+}

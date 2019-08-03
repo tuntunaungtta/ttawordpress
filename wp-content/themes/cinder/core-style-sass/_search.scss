@@ -1,0 +1,57 @@
+.page-header .search-form label{
+	width: 100%;
+}
+.page-header .search-form .search-field{
+	width: 100%;
+	color:$content-text-color; /**color defined in _additional_colors.scss**/	color:$content-text-color; /**color defined in _additional_colors.scss**/
+	padding: 10px 10px;
+	border-radius: 5px;	
+}
+.page-header .search-form .search-submit{
+	float: right;
+	text-transform: uppercase;
+	box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+	background: #9c27b0;
+	color: #ffffff;
+	border: none;
+	border-radius: 3px;
+	position: relative;
+	padding: 12px 30px;
+	margin: 10px 1px;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	will-change: box-shadow, transform;
+	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#searchModal .search-form{
+	padding: 0px 20px;
+}
+#searchModal .search-form label{
+	width: 100%;
+}
+#searchModal .search-form .search-field{
+	width: 100%;
+	color:$content-text-color; /**color defined in _additional_colors.scss**/	color:$content-text-color; /**color defined in _additional_colors.scss**/
+	padding: 10px 10px;
+	border-radius: 5px;	
+}
+#searchModal .search-form .search-submit{
+	float: right;
+	text-transform: uppercase;
+	box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+	background: #9c27b0;
+	color: #ffffff;
+	border: none;
+	border-radius: 3px;
+	position: relative;
+	padding: 12px 30px;
+	margin: 10px 1px;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	will-change: box-shadow, transform;
+	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,138 @@
+.main{
+	background:none;
+}
+/** image **/
+.section.section-text img {
+    max-width: 100%;
+    height: auto;
+    margin: 14px 0px;
+}
+.section.section-text .alignleft{
+	float: left;
+	margin-right: 14px;
+}
+.section.section-text .alignright{
+	float: right;
+	margin-left: 14px;
+}
+.wp-caption.alignleft{
+	text-align: left;
+}
+.wp-caption.alignright{
+	text-align: right;
+}
+.wp-caption.aligncenter{
+	text-align: center;
+}
+.wp-caption-text {
+    margin-bottom: 14px;
+}
+/** This increases all the text size in post or page content like a zoom effect for better readability **/
+.main .section-text .content{
+    
+
+	color:$content-text-color; /**color defined in _additional_colors.scss**/
+	padding-bottom: 0px;
+}
+.single .main .section-text .content{
+	h1{
+		margin-top: 0px;
+	}
+	h2{
+		margin-top: 0px;
+	}
+	h3{
+		margin-top: 0px;
+	}
+	h4{
+		margin-top: 0px;
+	}
+	h5{
+		margin-top: 0px;
+	}	
+	h6{
+		margin-top: 0px;
+	}			
+}
+.page .main .section-text .content{
+	h1{
+		margin-top: 0px;
+	}
+	h2{
+		margin-top: 0px;
+	}
+	h3{
+		margin-top: 0px;
+	}
+	h4{
+		margin-top: 0px;
+	}
+	h5{
+		margin-top: 0px;
+	}	
+	h6{
+		margin-top: 0px;
+	}			
+}
+@media screen and (min-width: 1024px){
+	.blog-tags{
+		text-align: right;
+	}
+}
+.posts-tag, .posts-cat{
+	display: inline-block;
+	margin:14px 3px 0px 3px;
+}
+.posts-tag a, .posts-cat a{
+	color: $white;
+}
+.posts-tag.label.label-primary, .posts-cat.label.label-primary{
+	background: $grey;
+}
+.blog-published-date{
+	margin-top: 20px;
+}
+.blog-published-date .updated:not(.published) {
+    display: none;
+}
+.blog-published-date a, .blog-published-date a:hover, .blog-published-date a:focus, .blog-published-date a:active{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/
+}
+.page-published-date{
+	font-size: 14px;
+}
+.page-published-date .updated:not(.published) {
+    display: none;
+}
+.page-published-date a, .page-published-date a:hover, .page-published-date a:focus, .page-published-date a:active{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/
+}
+/** styles author profile box **/
+.author-social-links ul{
+	list-style: none;
+	padding-left:5px;
+}
+.author-social-links ul li{
+	display: inline-block;
+	margin-right: 12px;
+}
+.section-blog-info .card-profile .description a, .section-blog-info .card-profile .description a:hover, .section-blog-info .card-profile .description a:focus{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/
+}
+@media screen and (min-width:768px){
+	.section-blog-info .card-title, .section-blog-info .card-profile .description{
+		text-align: left;
+	}
+}
+@media screen and (min-width: 1024px){
+	.author-social-links{
+		text-align: right;
+	}
+}
+.section-blog-info .description{
+	font-weight: 300;
+}
+.title{
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}

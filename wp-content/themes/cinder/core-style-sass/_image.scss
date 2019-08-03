@@ -1,0 +1,93 @@
+.attachment-full.size-full{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  .attachment-jpeg .page-header, .attachment-png .page-header{
+  	height: auto;
+  	min-height: 0px;
+  }  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  .attachment-jpeg .page-header, .attachment-jpeg .page-header{
+  	height: auto;
+  	min-height: 0px;
+  }   
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  .attachment-jpeg .page-header, .attachment-png .page-header{
+  	height: auto;
+  	min-height: 0px;
+  }   
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  .attachment-jpeg .page-header, .attachment-png .page-header{
+  	height: auto;
+  	min-height: 0px;
+  }   
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  .attachment-jpeg .page-header, .attachment-png .page-header{
+  	height: auto;
+  	min-height: 0px;
+  }   
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  .attachment-jpeg .page-header, .attachment-png .page-header{
+  	height: auto;
+  	min-height: 0px;
+  }   
+}
+
+.attachment-jpeg .page-header .container-fluid .col-md-12, .attachment-png .page-header .container-fluid .col-md-12{
+	padding: 0px;
+}

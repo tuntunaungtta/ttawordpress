@@ -1,0 +1,125 @@
+//website title
+.navbar-scroll-on .navbar-brand, .navbar-scroll-on .navbar-brand:hover{
+	color: $white;
+}
+.navbar.navbar-scroll-on{
+	padding: 5px 0px 0px 0px;
+	background: rgba(0, 0, 0, 0.5);
+}
+.logo{
+	float: left;
+}
+.navbar .navbar-brand{
+	line-height: 20px;
+    padding-top: 15px;
+}
+.navbar .tagline{
+	font-size:12px;
+}
+.navbar-scroll-on .tagline{
+	display: none;
+}
+.navbar-scroll-on .custom-logo{
+	height: 50px;
+	width: auto;	
+}
+.page-header .byline{
+	margin-bottom: 20px;
+}
+/**set default header height to 60vh for all viewports**/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {.page-header{height:60vh;}}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {.page-header{height:60vh;}}
+@media screen and (max-width: 767px) and (orientation: portrait) {.page-header{height:60vh;}}
+@media screen and (max-width: 767px) and (orientation: landscape) {.page-header{height:60vh;}}
+.page-header{
+	background-color:#000000;
+	height: 60vh;
+}
+
+.page-header .title{
+	text-align: center;
+}
+
+//hide header-menu in tablet and mobile.
+@media screen and (max-width:1024px){
+	.header-menu-container{
+		display: none;
+	}
+}
+
+//reference - https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+
+// !smaller that ipad - such as iphone plus size
+@media screen and (max-width:767px){
+	.page-header .container{
+		padding-top: 120px;
+		padding-bottom: 20px;
+	}
+}
+
+// !ipad portrait
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation : portrait) {  
+	.page-header .container{
+		padding-top: 110px;
+	}
+}
+
+// !ipad landscape
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation : landscape)  {
+	.page-header .container{
+		padding-top: 210px;
+	}	
+}
+
+.page-header .btn-info, .page-header .btn-info:active, .page-header .btn-info:focus, .page-header .btn-info:hover{
+	box-shadow: none;
+	border: none;
+} 
+.page-header .btn{
+	text-transform: none;
+}
+#search-input{
+	width: 100%;
+}
+.search-form-icon.btn .fa.fa-search{
+	color: $white;
+	font-size:12px;
+}
+.navbar-scroll-on .search-form-icon.btn .fa.fa-search{
+	color: $white;
+}
+.modal-open{
+  padding-right: 0px !important;
+  overflow:auto;
+}
+#searchModal .modal-content{
+	background: rgba(0, 0, 0, 0.8);
+}
+#searchModal .modal-title, #searchModal .close{
+	color: $white;
+}
+
+.page-header-two{
+	width:100%;
+	text-align: center;
+}
+.page-header-two.page-header-height-auto{
+	height: auto
+}
+.page-header-two .container-fluid .col-md-12{
+	padding: 0px;
+}
+.page-template-template-header2-no-sidebar .content-title, .post-template-template-header2-no-sidebar .content-title, 
+.page-template-template-header2-left-sidebar .content-title, .post-template-template-header2-left-sidebar .content-title,
+.page-template-template-header2-right-sidebar .content-title, .post-template-template-header2-right-sidebar .content-title,
+.page-template-template-header2-left-right-sidebar .content-title, .post-template-template-header2-left-right-sidebar .content-title{
+	text-align: center;
+	font-weight: 700;
+	font-family: "Roboto Slab", "Times New Roman", serif;
+	margin: 0px;
+	padding-top: 70px;
+}
+
+.title.no-featured-image-title, .content-title.no-featured-image-title{
+	padding-top: 120px;
+}

@@ -1,0 +1,29 @@
+/**styles homepage featured pages section **/
+.featured-pages{
+	padding: 50px 0px 0px 0px;
+}
+.featured-pages .card-description a{
+	color: #00838f;
+}
+/**styles homepage recent posts section**/
+.recent-posts{
+	padding: 50px 0px 0px 0px;
+}
+.recent-posts .card-content .category a{
+	color: $cyan-500;
+}
+.recent-posts .card-description a{
+	color: $cyan-800;
+}
+.card .card-image img{
+	pointer-events: auto;
+}
+.recent-posts .card-title a {
+    word-wrap: break-word;
+}
+.blog .sticky .text-info a{
+	color:$orange;
+}
+.recent-posts .card-description a, .featured-pages .card-description a{
+	color: #999999;
+}

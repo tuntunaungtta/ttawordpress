@@ -1,0 +1,20 @@
+.sidebar{
+	overflow: hidden;
+}
+.sidebar, .sidebar a{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/
+}
+.sidebar img{
+	max-width: 100%;
+	height: auto;
+}
+.widget{
+	margin-bottom: 50px;
+}
+.widget-title{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/
+	margin-top: 0px;
+}
+.hide_sidebar{
+	display: none;
+}

@@ -1,0 +1,13 @@
+.error404 .page-header h4{
+	text-align: center;
+}
+.error404 .page-header #search-input{
+	color:$content-text-color; /**color defined in _additional_colors.scss**/	color:$content-text-color; /**color defined in _additional_colors.scss**/
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+
+.error404 .page-header .btn-submit{
+	float: right;
+	text-transform: uppercase;
+}

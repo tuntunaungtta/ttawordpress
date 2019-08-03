@@ -1,0 +1,14 @@
+.attachment-mp4 .page-header, .attachment-quicktime .page-header, .attachment-webm .page-header{
+	text-align: center;
+}
+@media (max-width: 1281px) {
+.attachment-mp4 .page-header, .attachment-quicktime .page-header, .attachment-webm .page-header{
+		height:auto;
+	}  
+}
+.attachment-mp4 .page-header .wp-video, .attachment-quicktime .page-header .wp-video, .attachment-webm .page-header .wp-video{
+	margin: 0px auto;
+}
+.wp-video{
+	margin: 0px auto 50px auto;
+}
